@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+  background-color: black;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #black;
+}
+
+nav ul li {
+  display: inline;
+  color: antiquewhite;
+}
+
+nav ul li a {
+  display: inline;
+  padding: 10px;
+  text-decoration: none;
+  color: antiquewhite;
+  font-size: 24px;
+}
+
+nav ul li a:hover {
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+}
+
+.logo img{
+ widht: 32px;
+ height: 32px;
+ margin-right: 10px;
+}
+
+.logo img:hover {
+}
+
+.banner {
+  background-image: url('https://images.unsplash.com/photo-1561758033-d89a9ad46330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80');
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  padding: 500px 0;
+}
+
+.banner h1 {
+  font-size: 36px;
+  margin-bottom: 100px;
+  position: absolute;
+  left: 45%;
+  top: 20%;
+  color: antiquewhite;
+}
+
+.banner p {
+   position: absolute;
+   top: 35%;
+   left: 40%;
+}
+
+.content {
+  padding: 20px;
+}
+
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav ul {
+    margin-top: 20px;
+  }
+
+  .social-icons {
+    margin-top: 20px;
+  }
+
+  .banner h1 {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner h1 {
+    font-size: 24px;
+  }
+
+  nav ul li a {
+    font-size: 18px;
+  }
+}
+
+.menu-section {
+  padding: 100px 300px;;
+  background: #624747;
+  color: antiquewhite;
+  display: flex-inline;
+  height: 600px;
+
+}
+
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.menu-column {
+  flex: 0 0 20%;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+.price {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.menu-section h1 {
+display: flex;
+justify-content: center;
+  margin-top: -50px;
+}
