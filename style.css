@@ -90,18 +90,18 @@ th, td {
 
 th {
   background-color: #222;
-  color: #fff;
+  color: antiquewhite;
 }
 
 td {
   background-color: #444;
-  color: #fff;
+  color: antiquewhite;
   font-size:16px;
 }
 
-.menu-header {
+#menu-header {
   background: linear-gradient(to right, #222, #000);
-  color: #fff;
+  color: antiquewhite;
   padding: 10px;
   text-align: center;
   font-size: 24px;
@@ -109,7 +109,7 @@ td {
 
 .menu-category {
   background-color: #333;
-  color: #fff;
+  color: antiquewhite;
   padding: 10px;
   font-weight: bold;
   font-size: 20px;
@@ -117,7 +117,7 @@ td {
 
 .menu-item {
   background-color: #555;
-  color: #fff;
+  color: antiquewhite;
 }
 
 @media (max-width: 600px) {
@@ -140,7 +140,7 @@ td {
   }
 
 
-  .menu-header {
+  #menu-header {
     font-size: 16px;
   }
 
