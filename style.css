@@ -148,6 +148,134 @@ td {
     font-size: 14px;
   }
 
+@media (max-width: 600px) {
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+  }
+
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #black;
+  }
+
+  nav ul li {
+    display: inline;
+    color: antiquewhite;
+  }
+
+  nav ul li a {
+    display: inline;
+    padding: 10px;
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 24px;
+  }
+
+  nav ul li a:hover {
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+  }
+
+  .logo img{
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+  }
+
+  .logo img:hover {
+  }
+
+  .banner {
+    text-align: center;
+    background-image: url('https://images.unsplash.com/photo-1561758033-d89a9ad46330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80');
+    background-size: cover;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .banner h1 {
+    font-size: 36px;
+    margin-bottom: 100px;
+    position: initial;
+    left: initial;
+    top: initial;
+    color: antiquewhite;
+    margin-top: 0;
+  }
+
+  .banner p {
+    position: initial;
+    top: initial;
+    left: initial;
+    margin-bottom: 0;
+  }
+
+  .content {
+    padding: 20px;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    padding: 5px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #222;
+    color: antiquewhite;
+  }
+
+  td {
+    background-color: #444;
+    color: antiquewhite;
+    font-size: 16px;
+  }
+
+  #menu-header {
+    background: linear-gradient(to right, #222, #000);
+    color: antiquewhite;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .menu-category {
+    background-color: #333;
+    color: antiquewhite;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  .menu-item {
+    background-color: #555;
+    color: antiquewhite;
+  }
+}
+
+
   td, th {
     padding: 5px;
   }
