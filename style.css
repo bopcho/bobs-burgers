@@ -120,6 +120,7 @@ td {
   color: antiquewhite;
 }
 
+/*queries need fix*/
 @media (max-width: 600px) {
 
   .banner {
